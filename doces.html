@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doces</title>
+    <link rel="stylesheet" href="./style.css">
+<style>
+    body
+    {
+        width: 100%;
+        height: 100vh;
+        background-color: antiquewhite;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    .div1
+    {
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .div3
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div4
+    {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .barra
+    {
+        width: 360px;
+        height: 20px;
+        background-color: #EF5867;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        align-items: center;
+        margin-top: 80px;
+    }
+
+    
+    .barrinha
+    {
+        margin-top: 20px;
+        margin-left: 310px;
+
+
+    }
+
+    .logo
+    {
+        margin-left: 15px;
+    }
+
+    .titulo
+    {
+        margin-left: 20px;
+        margin-top: -45px;
+    }
+
+    .imagens
+    {
+        margin-left: 35px;
+        margin-top: 60px;
+    }
+
+    .textobolo
+    {
+        margin-left: 25px;
+        margin-top: 75px;
+    }
+
+    .textosonho
+    {
+        margin-left: 40px;
+        margin-top: 75px;
+    }
+
+    .textobrownie
+    {
+        margin-left: 80px;
+        margin-top: 75px;
+    }
+
+    .textomisto
+    {
+        margin-left: 35px;
+        margin-top: 75px;
+    }
+
+    .quadradinhobolo
+    {
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+        width: 130px;
+        height: 25px;
+        background-color: #EF5867;
+        margin-top: 30px;
+        margin-left: 25px;
+        color: white;
+    }
+
+    .quadradinhosonho
+    {
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+        width: 130px;
+        height: 25px;
+        background-color: #EF5867;
+        margin-top: 30px;
+        margin-left: 15px;
+        color: white;
+    }
+
+    .quadradinhobrownie
+    {
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+        width: 130px;
+        height: 25px;
+        background-color: #EF5867;
+        margin-top: 30px;
+        margin-left: -25px;
+        color: white;
+    }
+
+    .quadradinhomisto
+    {
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+        width: 130px;
+        height: 25px;
+        background-color: #EF5867;
+        margin-top: 30px;
+        margin-left: 0px;
+        color: white;
+    }
+
+    .margemfinal
+    {
+        height: 50px;
+        background-color: antiquewhite;
+
+
+    }
+
+</style>
+</head>
+<body>
+    <header id="header">
+        <a id="logo" href=""><img src="home.png" width="60px"></a>
+        <nav id="nav">
+          <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+            <span id="hamburger"></span>
+          </button>
+          <ul id="menu" role="menu">
+            <li><a href="/">Minha Conta</a></li>
+            <li><a href="/">Produtos</a></li>
+            <li><a href="/">Carrinho</a></li>
+            <li><a href="/">Contato</a></li>
+          </ul>
+        </nav>
+      </header>
+      <script src="./script.js"></script>
+
+    <div class="div2">
+        <div class="barra">
+            
+            <img src="logo.png" width="120px" class="logo">
+            <img src="titulo.png" width="180px" class="titulo">
+        </div>
+    </div>
+
+    <div class="div3">
+        <div class="div4">
+            <img src="bolo.png" width="100px" class="imagens">
+            <div class="textobolo">
+                <b>BOLO DE CHOCOLATE</b>
+                <div class="quadradinhobolo">
+                    Mais informações
+                </div>
+            </div>
+        </div>
+
+        <div class="div4">
+            <img src="sonho.png" width="100px" class="imagens">
+            <div class="textosonho">
+                <b>SONHO RECHEADO</b>
+                <div class="quadradinhosonho">
+                    Mais informações
+                </div>
+            </div>
+        </div>
+
+        <div class="div4">
+            <img src="brownie.png" width="100px" class="imagens">
+            <div class="textobrownie">
+                <b>BROWNIE</b>
+                <div class="quadradinhobrownie">
+                    Mais informações
+                </div>
+            </div>
+        </div>
+
+        <div class="div4">
+            <img src="misto.png" width="100px" class="imagens">
+            <div class="textomisto">
+                <b>MISTO QUENTE</b>
+                <div class="quadradinhomisto">
+                    Mais informações
+                </div>
+            </div>
+        </div>
+    <div class="margemfinal"></div>
+    </div>
+</body>
+</html>
